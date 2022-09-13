@@ -1,0 +1,194 @@
+body, html {
+
+	color: #333333;
+	font-size: 14px;
+	font-family: Century Gothic, Verdana, Arial; 
+	vertical-align: top;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/**************** Hyperlinks ****************/
+a {
+	color: #4083a9; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #205f82;
+	text-decoration: underline;
+}
+	
+/**** header styling ****/
+h1, h2, h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+/**************** Wrap ****************/
+.wrap {
+	width: 980px; 
+	margin: 0 auto;
+}
+
+/**************** Header ****************/
+#header {
+	color: #000000;
+	background-color: #ffffff;
+	border: 0;
+	padding: 0px;
+	height: 136px;
+}
+
+#inner {
+	width: 960px;
+	position: relative;
+	height: 100%;
+}
+#inner2 {
+	width: 960px;
+	position: relative;
+	height: 100%;
+}
+
+#headertext {
+	position: absolute;
+	font-size: 36px;
+	right: 0px;
+	top: 5px;
+	color: #333;
+	font-family: 'Rock Salt', cursive;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#logo {
+	position: absolute;
+	padding-top: 4px;
+	left: 0px;
+	border: 0;
+}
+
+/**************** Navigation ****************/
+#nav {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 58px;
+	display: block;
+	vertical-align: baseline;
+	font-size: 20px;
+}
+
+#nav ul {
+	list-style:none;
+	list-style-type: none;
+}
+
+#nav li {
+	float: left;
+	position: relative;
+	margin: 0px;
+	display: inline;
+	padding-left: 20px;
+	vertical-align: baseline;
+}
+
+#nav a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+/**************** Feature ****************/
+#feature {
+	background-color: #ccc;
+	padding: 6px;
+}
+
+#feature .feature_title {
+	color: #333;
+	font-size: 32px;
+	font-family: 'Rock Salt', cursive;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/**************** Main Body Content ****************/
+#content {
+	position: relative;
+	width: 940px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/**************** Image Gallery ****************/
+#gallery_wrap {
+	width: 820px;
+	padding-left: 80px;	
+	margin-top: 20px;
+}
+
+/**************** Footer ****************/
+#footer {
+	clear: both; 
+	border: 0;
+	border-top: solid;
+	border-color: #ddd;
+	padding: 15px;
+
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#footer td {
+	padding: 7px;
+}
+
+#footernav {
+	color: #ccc;
+	background: #000000;
+	font-size: 0.9em;
+	vertical-align: baseline;
+	padding: 6px;
+}
+
+#footernav p {
+	margin-left: 14px;
+}
+
+#footernav a:hover {
+	color: #ddd;
+	text-decoration: underline;
+}
+
+/**************** Misc *******************/
+#profile_img {
+	float: right;
+	border: 0;
+	padding: 8px;
+}
+
+#tui {
+	margin:0 auto;
+}
+
+#tui td {
+	padding: 6px; 
+}
+
+#contactform td {
+	vertical-align: top;
+	padding: 10px;
+}
